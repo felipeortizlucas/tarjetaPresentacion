@@ -1,0 +1,97 @@
+section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.card {
+  width: 400px;
+  height: 600px;
+  background: whitesmoke;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.portada img {
+  width: 100%;
+  height: 180px;
+}
+
+.perfil {
+  width: 150px;
+  height: 150px;
+  background: red;
+  position: relative;
+  left: 130px;
+  bottom: 50px;
+  border: 4px solid white;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.perfil img {
+  width: 100%;
+}
+
+.nombres {
+  text-align: center;
+}
+
+.nombres p {
+  color: darkgray;
+  position: relative;
+  margin: 0;
+  bottom: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.referencia {
+  display: flex;
+}
+
+.referencia p {
+  margin-left: 90px;
+  position: relative;
+  bottom: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: darkgray;
+}
+.container {
+  display: flex;
+}
+.container .box {
+  display: flex;
+  justify-content: center;
+  width: 400px;
+  height: 70px;
+}
+.container .box div {
+  width: 400px;
+  height: 70px;
+  border: 1px solid mediumseagreen;
+}
+.container .boton {
+  position: absolute;
+  bottom: 305px;
+  width: 400px;
+  height: 99px;
+  background: mediumseagreen;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.container .boton p {
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 400px;
+}
+.container .box p {
+  text-align: center;
+  color: seagreen;
+  margin: 5px;
+}
+.container .box p:nth-child(1) {
+  font-weight: 400px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

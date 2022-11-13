@@ -56,29 +56,39 @@ section {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   color: darkgray;
 }
+
 .container {
   display: flex;
 }
+
 .container .box {
   display: flex;
   justify-content: center;
   width: 400px;
   height: 70px;
 }
+
 .container .box div {
   width: 400px;
   height: 70px;
   border: 1px solid mediumseagreen;
 }
+
+.container .box p:nth-child(1) {
+  font-weight: 400px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .container .boton {
   position: absolute;
-  bottom: 305px;
+  bottom: 7px;
   width: 400px;
   height: 99px;
   background: mediumseagreen;
   border-bottom-left-radius: 10px;
   border-bottom-right-radius: 10px;
 }
+
 .container .boton p {
   text-align: center;
   color: white;
@@ -86,12 +96,9 @@ section {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-weight: 400px;
 }
+
 .container .box p {
   text-align: center;
   color: seagreen;
   margin: 5px;
-}
-.container .box p:nth-child(1) {
-  font-weight: 400px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }

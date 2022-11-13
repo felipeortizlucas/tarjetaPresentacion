@@ -59,6 +59,7 @@ section {
 
 .container {
   display: flex;
+  position: relative;
 }
 
 .container .box {
@@ -81,7 +82,7 @@ section {
 
 .container .boton {
   position: absolute;
-  bottom: 7px;
+  top: 72px;
   width: 400px;
   height: 99px;
   background: mediumseagreen;
